@@ -10,3 +10,8 @@ export interface EthMoneyTransfer extends MoneyTransfer {
 export interface SuccessfulTransfer {
 	txid: string;
 }
+
+export interface BalanceChangeInfo {
+    prev_balance: string;
+    new_balance: string;
+}
